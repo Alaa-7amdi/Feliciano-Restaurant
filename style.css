@@ -1,7 +1,107 @@
-body {
-  background-color: #ea9754;
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.homeSection {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.homeSectionContainer {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.553);
 }
 
-h1 {
-  color: blueviolet;
+/* Home Navbare */
+.navbare {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  border-bottom: 1px solid #dddddd49;
+  /* background-color: aqua; */
+}
+.resLogo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 50%;
+  /* background-color: pink; */
+}
+.navLinksContainer {
+  width: 50%;
+  font-size: 15px;
+  padding: 0px 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* background-color: blueviolet; */
+}
+.bookBtn {
+  width: 15%;
+  height: 45px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #c8a97e;
+}
+
+/* Home Content */
+.homeContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  color: white;
+}
+
+/* Home Footer */
+.homeFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  color: white;
+  border-top: 1px solid #dddddd49;
+  /* background-color: #c8a97e; */
+}
+.homeFooterMealsContainer {
+  width: 24%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: cadetblue; */
+}
+.homeMealImgContainer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /* background-color: orange; */
+}
+.homeMealName {
+  font-size: 18px;
+  margin: 7px;
+  font-weight: bold;
+}
+.homeMealComponents {
+  font-size: 15px;
 }
